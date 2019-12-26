@@ -37,7 +37,7 @@
       <!-- include the docker image only when docker profile is active -->
       <dependencies>
         <dependency>
-          <groupId>org.apache.pulsar</groupId>
+          <groupId>${project.groupId}</groupId>
           <artifactId>pulsar-all-docker-image</artifactId>
           <version>${project.parent.version}</version>
           <classifier>docker-info</classifier>

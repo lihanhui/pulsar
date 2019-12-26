@@ -33,7 +33,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.pulsar</groupId>
+      <groupId>${project.groupId}</groupId>
       <artifactId>pulsar-server-distribution</artifactId>
       <version>${project.parent.version}</version>
       <classifier>bin</classifier>
